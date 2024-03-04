@@ -14,21 +14,27 @@
   </head>
   <body>
     <nav class="nav" id="header">
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="uil uil-apps"></i>
+      </div>
       <div class="logo">
         <a href="./index.html">PADDEE CYBERSYSTEM</a>
       </div>
-      <ul class="navlinks">
-        <li>
-          <a href="#about-us">About</a>
-        </li>
-        <li>
-          <a href="#ourservices">Services</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <i class="uil uil-shopping-cart-alt"></i>
-      </ul>
+      <div class="nav__menu remove-menu" id="nav-menu">
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+        <ul class="navlinks">
+          <li>
+            <a href="#about-us">About</a>
+          </li>
+          <li>
+            <a href="#ourservices">Services</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <i class="uil uil-shopping-cart-alt cart"></i>
+        </ul>
+      </div>
     </nav>
 
     <main>
@@ -56,12 +62,7 @@
       <section class="small__section" id="about-us">
         <div class="container">
           <div class="about__us">
-            <div class="about__us-img">
-              <img
-                src="./images/136471704_e20eecf7-8556-4668-b91a-413c196e6795.png"
-                alt=""
-              />
-            </div>
+            <div class="about__us-img"></div>
             <div class="about__us-contents">
               <h3>About Us</h3>
               <p>
@@ -93,7 +94,7 @@
               </a>
             </div>
             <div class="services">
-              <img src="./images/software solution.png" alt="" />
+              <img src="./images/devops.png" alt="" />
               <h4>Custom Software Solution Development</h4>
               <a class="see-more" data-name="p-2">
                 Show me more
@@ -101,7 +102,7 @@
               </a>
             </div>
             <div class="services">
-              <img src="./images/app.png" alt="" />
+              <img src="./images/mobile-development.png" alt="" />
               <h4>Customized Mobile App Development</h4>
               <a class="see-more" data-name="p-3">
                 Show me more
@@ -109,7 +110,7 @@
               </a>
             </div>
             <div class="services">
-              <img src="./images/startup.png" alt="" />
+              <img src="./images/company.png" alt="" />
               <h4>Solutions For Startups</h4>
               <a class="see-more" data-name="p-4">
                 Show me more
@@ -117,7 +118,7 @@
               </a>
             </div>
             <div class="services">
-              <img src="./images/web.png" alt="" />
+              <img src="./images/world-wide-web.png" alt="" />
               <h4>Customized Web Solutions Development</h4>
               <a class="see-more" data-name="p-5">
                 Show me more
