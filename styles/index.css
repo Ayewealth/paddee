@@ -70,17 +70,17 @@ a {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 .scroll-header .nav-toggle i {
-  color: var(--first-color);
+  color: orange;
   font-size: 19px;
 }
 .scroll-header div a {
-  color: var(--first-color);
+  color: orange;
 }
 .scroll-header ul li a {
   color: #000;
 }
 .scroll-header ul i {
-  color: #000;
+  color: orange;
 }
 
 .section {
@@ -111,7 +111,7 @@ a {
 /*==================== BUTTONS ====================*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: orange;
   color: #fff;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -119,7 +119,7 @@ a {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: rgb(254, 192, 76);
 }
 
 .button__icon {
@@ -204,7 +204,7 @@ nav {
   transition: all 0.5s;
 }
 .navlinks li a:hover {
-  color: var(--first-color);
+  color: orange;
 }
 .cart {
   color: #fff;
@@ -213,9 +213,7 @@ nav {
   transition: 0.3s;
   margin: 0 0 0 0.5rem;
   cursor: pointer;
-}
-.cart:hover {
-  color: var(--first-color);
+  color: orange;
 }
 nav.nav ul li a {
   position: relative;
@@ -229,7 +227,7 @@ nav.nav ul li a::after {
   width: 0%;
   content: ".";
   color: transparent;
-  background: var(--first-color-lighter);
+  background: orange;
   height: 1px;
 }
 nav.nav ul li a:hover::after {
@@ -286,7 +284,7 @@ nav.nav ul li a:hover::after {
   width: 50%;
 }
 .banner__contents h2 span {
-  color: var(--first-color);
+  color: orange;
 }
 .banner__contents p {
   font-size: 15px;
@@ -301,7 +299,7 @@ nav.nav ul li a:hover::after {
   cursor: pointer;
 
   border: none;
-  background-color: var(--first-color);
+  background-color: orange;
 }
 .banner__contents div button a {
   color: #fff;
@@ -356,7 +354,7 @@ nav.nav ul li a:hover::after {
 }
 .about__us-contents:hover {
   color: var(--container-color);
-  background-color: var(--first-color);
+  background-color: orange;
 }
 .about__us-contents h3 {
   font-size: 2rem;
@@ -377,7 +375,7 @@ nav.nav ul li a:hover::after {
   color: #fff;
 }
 .ourservice__head h1 span {
-  color: var(--first-color);
+  color: orange;
 }
 .ourservices {
   display: grid;
@@ -420,7 +418,7 @@ nav.nav ul li a:hover::after {
   gap: 0.3rem;
 
   background-color: transparent;
-  color: var(--first-color);
+  color: orange;
   font-weight: 600;
   border: none;
   border-radius: 20px;
@@ -429,7 +427,7 @@ nav.nav ul li a:hover::after {
 }
 .services a i {
   transition: 0.3s;
-  color: var(--first-color);
+  color: orange;
 }
 
 /* --------------service preview---------------- */
@@ -499,7 +497,7 @@ nav.nav ul li a:hover::after {
 
 .contact__icon {
   font-size: 2rem;
-  color: var(--first-color);
+  color: orange;
   margin-right: var(--mb-0-75);
 }
 
@@ -571,7 +569,7 @@ nav.nav ul li a:hover::after {
   transition: 0.3s;
 }
 .footer__links ul li a:hover {
-  color: var(--first-color);
+  color: orange;
 }
 
 .footer_social_links {
@@ -586,7 +584,7 @@ nav.nav ul li a:hover::after {
   transition: 0.3s;
 }
 .footer_social_links li i:hover {
-  color: var(--first-color);
+  color: orange;
 }
 
 /*========== SCROLL BAR ==========*/
